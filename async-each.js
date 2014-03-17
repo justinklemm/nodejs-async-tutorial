@@ -25,7 +25,7 @@ items.push(new Item(500));
 // Make sure you add "node-async" to your package.json for npm
 async = require("async");
  
-// 1st parameter in async.map() is the array of items
+// 1st parameter in async.each() is the array of items
 async.each(items,
   // 2nd parameter is the function that each item is passed into
   function(item, callback){
